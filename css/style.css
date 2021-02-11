@@ -16,7 +16,13 @@ body{
 
 /* HEADER */
 header{
-    height: 150px; /* fake content */
+    height: 120px; /* fake content */
     background-color: #e579e6;
     margin-bottom: 20px;
+}
+
+/* HERO SECT. */
+.hero{
+    height:440px;
+    background-color: #e1d67a;
 }
