@@ -4,3 +4,19 @@
     margin:0;
     padding: 0;
 }
+body{
+    padding:30px;
+}
+
+/* UTILITIES */
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+/* HEADER */
+header{
+    height: 150px; /* fake content */
+    background-color: #e579e6;
+    margin-bottom: 20px;
+}
