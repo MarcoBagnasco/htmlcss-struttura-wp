@@ -36,6 +36,7 @@ header{
 /* COLUMNS SECT. */
 main .columns{
     background-color: #3386ff;
+    margin-bottom: 8px;
     padding-bottom: 20px;
 }
 .columns .title-columns{
@@ -58,4 +59,10 @@ main .columns .right-column{
 main .columns .central-column{
     width:57%;
     margin: 0 1.5%;
+}
+
+/* FOOTER */
+footer{
+    height: 55px; /* fake content */
+    background-color: #8800fd;
 }
