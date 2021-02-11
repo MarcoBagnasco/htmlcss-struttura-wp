@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    padding:40px;
+    padding:40px 0 20px;
 }
 
 /* UTILITIES */
@@ -22,8 +22,8 @@ body{
 /* HEADER */
 header{
     height: 120px; /* fake content */
-    background-color: #e579e6;
     margin-bottom: 30px;
+    background-color: #e579e6;
 }
 
 /* HERO SECT. */
@@ -35,23 +35,24 @@ header{
 
 /* COLUMNS SECT. */
 main .columns{
-    background-color: #3386ff;
     margin-bottom: 8px;
     padding-bottom: 20px;
+    background-color: #3386ff;
 }
-.columns .title-columns{
+.columns .title-area{
     height: 80px; /* fake content */
     margin-bottom: 25px;
     background-color: #abcfe7;
 }
+
+/* COLUMNS */
 main .columns .left-column,
 main .columns .central-column,
 main .columns .right-column{
-    height: 480px;
+    height: 480px; /* fake content */
     float: left;
     background-color: #abcfe7;
 }
-
 main .columns .left-column,
 main .columns .right-column{
     width:20%;
