@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    padding:30px;
+    padding:40px;
 }
 
 /* UTILITIES */
@@ -13,16 +13,49 @@ body{
     width:80%;
     margin:0 auto;
 }
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 
 /* HEADER */
 header{
     height: 120px; /* fake content */
     background-color: #e579e6;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* HERO SECT. */
 .hero{
-    height:440px;
+    height:440px; /* fake content */
+    margin-bottom: 30px;
     background-color: #e1d67a;
+}
+
+/* COLUMNS SECT. */
+main .columns{
+    background-color: #3386ff;
+    padding-bottom: 20px;
+}
+.columns .title-columns{
+    height: 80px; /* fake content */
+    margin-bottom: 25px;
+    background-color: #abcfe7;
+}
+main .columns .left-column,
+main .columns .central-column,
+main .columns .right-column{
+    height: 480px;
+    float: left;
+    background-color: #abcfe7;
+}
+
+main .columns .left-column,
+main .columns .right-column{
+    width:20%;
+}
+main .columns .central-column{
+    width:57%;
+    margin: 0 1.5%;
 }
